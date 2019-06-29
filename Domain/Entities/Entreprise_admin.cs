@@ -14,6 +14,6 @@ namespace Domain.Entities
         public int NB_Employee { get; set; }
         public string Activities { get; set; }
 
-
+        public ICollection<Job_Offer> Job_Offers { get; set; }
     }
 }
